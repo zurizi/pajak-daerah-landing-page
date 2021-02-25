@@ -1,9 +1,3 @@
-/**
-* Template Name: FlexStart - v1.1.1
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -13,7 +7,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Cerebri Sans,sans-serif" !important;
   color: #444444;
 }
 
@@ -28,8 +22,39 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Cerebri Sans,sans-serif" !important;
 }
+
+
+@font-face {
+  font-family: "Cerebri Sans,sans-serif";
+  src: url("../fonts/cerebrisans-light.eot");
+  src: local("Cerebri-sans Light"), url("../fonts/cerebrisans-light.woff") format("woff");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Cerebri Sans,sans-serif";
+  src: url("../fonts/cerebrisans-regular.eot");
+  src: local("Cerebri-sans Regular"), url("../fonts/cerebrisans-regular.woff") format("woff");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Cerebri Sans,sans-serif";
+  src: url("../fonts/cerebrisans-medium.eot");
+  src: local("Cerebri-sans Medium"), url("../fonts/cerebrisans-medium.woff") format("woff");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Cerebri Sans,sans-serif";
+  src: url("../fonts/cerebrisans-semibold.eot");
+  src: local("Cerebri-sans Semibold"), url("../fonts/cerebrisans-semibold.woff") format("woff");
+  font-weight: 600; }
+
+@font-face {
+  font-family: "Cerebri Sans,sans-serif";
+  src: url("../fonts/cerebrisans-bold.eot");
+  src: local("Cerebri-sans Bold"), url("../fonts/cerebrisans-bold.woff") format("woff");
+  font-weight: 700; }
 
 /*--------------------------------------------------------------
 # Sections
@@ -191,7 +216,7 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Nunito", sans-serif;
+  font-family: "Cerebri Sans,sans-serif" !important;
   margin-top: 3px;
 }
 
@@ -222,7 +247,7 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Cerebri Sans,sans-serif" !important;
   font-size: 16px;
   font-weight: 700;
   color: #013289;
@@ -453,7 +478,7 @@ section {
 }
 
 .hero .btn-get-started span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Cerebri Sans,sans-serif" !important;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -548,7 +573,7 @@ section {
 }
 
 .about .btn-read-more span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Cerebri Sans,sans-serif" !important;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -629,7 +654,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Cerebri Sans,sans-serif" !important;
   font-size: 14px;
 }
 
@@ -986,7 +1011,7 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
+  font-family: "Cerebri Sans,sans-serif" !important;
   font-weight: 600;
   transition: 0.3s;
   border: 1px solid #4154f1;
@@ -2281,7 +2306,7 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Nunito", sans-serif;
+  font-family: "Cerebri Sans,sans-serif" !important;
   margin-top: 3px;
 }
 
@@ -2289,7 +2314,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Cerebri Sans,sans-serif" !important;
 }
 
 .footer .footer-top .social-links a {
