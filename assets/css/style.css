@@ -193,12 +193,12 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 5px 0;
 }
 
 .header.header-scrolled {
   background: #fff;
-  padding: 15px 0;
+  padding: 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
 
@@ -207,18 +207,18 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+  max-height: 80px;
+  margin-right: 0px;
 }
 
-.header .logo span {
+.header .logo span{
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
   color: rgb(9,36,57);
   font-family: "Cerebri Sans,sans-serif" !important;
-  margin-top: 3px;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -459,23 +459,23 @@ section {
   /* background: url(../img/hero-bg.png) top center no-repeat; */
   /* background-size: cover; */
 }
-.hero::before{
+/* .hero::before{
   content:"";
   width:500px;
   height:500px;
-  transform: translateX(220px) translateY(-65px);
+  transform: translateX(250px) translateY(-280px);
   background-color: rgb(232,239,255);
   border-radius: 50%;
   top:0;
   right: 0;
   position: absolute;
-}
+} */
 
 .hero::after{
   content:"";
   width:500px;
   height:500px;
-  transform: translateX(-170px) translateY(40px);
+  transform: translateX(-170px) translateY(0px);
   background-color: rgb(232,239,255);
   border-radius: 50%;
   bottom:0;
@@ -538,26 +538,47 @@ section {
 }
 
 .hero .hero-img {
-  text-align: right;
+  padding-left: 20px;
 }
-.hero .hero-img img{
-  animation: up-down 2s ease-in-out infinite alternate
+.hero .hero-img .img-fly-1{
+  z-index:1;
+  top:70px;
+  left:75px;;
+  height: 90px;
+  animation: up-down 5s ease-in-out infinite alternate;
+}
+.hero .hero-img .img-fly-2{
+  z-index:1;
+  bottom:50px;
+  right:30px;;
+  height: 90px;
+  animation: up-down 5.5s ease-in-out infinite alternate;
+}
+.hero .hero-img .img-fly-3{
+  z-index:1;
+  top:10px;
+  right:80px;;
+  height: 90px;
+  animation: up-down 4.5s ease-in-out infinite alternate;
+}
+.hero .hero-img .img-fluid{
+  animation: up-down 6s ease-in-out infinite alternate
 }
 @-webkit-keyframes up-down {
   0% {
-    transform: translateY(15px);
+    transform: translateY(10px);
   }
   100% {
-    transform: translateY(-15px);
+    transform: translateY(-10px);
   }
 }
 
 @keyframes up-down {
   0% {
-    transform: translateY(15px);
+    transform: translateY(10px);
   }
   100% {
-    transform: translateY(-15px);
+    transform: translateY(-10px);
   }
 }
 
@@ -600,9 +621,9 @@ section {
 # Index Page
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-# Values
+# List App
 --------------------------------------------------------------*/
-.values .box {
+.list-app .box {
   padding: 30px;
   box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
   text-align: center;
@@ -610,25 +631,29 @@ section {
   height: 100%;
 }
 
-.values .box img {
-  padding: 30px 50px;
+.list-app .box img {
+  padding: 10px 30px 25px 30px;
   transition: 0.5s;
   transform: scale(1.1);
 }
 
-.values .box h3 {
+.list-app .box h3 {
   font-size: 24px;
   color: rgb(9,36,57);
   font-weight: 700;
   margin-bottom: 18px;
 }
 
-.values .box:hover {
+.list-app .box:hover {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 }
 
-.values .box:hover img {
+.list-app .box:hover img {
   transform: scale(1);
+}
+
+.list-app  a.btn{
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -661,7 +686,7 @@ section {
   color: #fff;
 }
 #alur .alur-box .alur-body .alur-nomor h3{
-  color: rgb(232,142,145);
+  color: rgb(252,173,176);
   text-shadow: 2px 2px 2px rgb(232,142,145);
   font-weight: 700;
   text-align: center;
