@@ -459,7 +459,7 @@ section {
 .navbar-mobile .btnNav {
   width: 30%;
 } */
-}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -573,6 +573,7 @@ section {
 .hero .hero-img .img-fluid{
   animation: up-down 6s ease-in-out infinite alternate
 }
+
 @-webkit-keyframes up-down {
   0% {
     transform: translateY(10px);
