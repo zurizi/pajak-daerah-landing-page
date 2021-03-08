@@ -632,9 +632,10 @@ section {
 }
 
 .list-app .box img {
-  padding: 10px 30px 25px 30px;
+  /* padding: 10px 30px 25px 30px; */
+  padding:0px 35px;
   transition: 0.5s;
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 .list-app .box h3 {
@@ -649,10 +650,12 @@ section {
 }
 
 .list-app .box:hover img {
-  transform: scale(1);
+  transform: scale(.9);
+
 }
 
 .list-app  a.btn{
+  padding: 0.5rem 1rem;
   font-size: 14px;
 }
 
