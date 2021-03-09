@@ -8,11 +8,11 @@
 
 body {
   font-family: "Cerebri Sans,sans-serif" !important;
-  color: rgb(9,36,57);
+  color: #092439;
 }
 
 a {
-  color: rgb(9,36,57);
+  color: #092439;
   text-decoration: none;
 }
 
@@ -66,7 +66,7 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .section-header h2 {
@@ -74,7 +74,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: rgb(33,105,255);
+  color: #2169FF;
   text-transform: uppercase;
 }
 
@@ -84,7 +84,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: rgb(9,36,57);
+  color: #092439;
 }
 
 @media (max-width: 768px) {
@@ -99,7 +99,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: rgb(9,36,57);
+  background: #092439;
   min-height: 40px;
   margin-top: 82px;
   color: #fff;
@@ -155,7 +155,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: rgb(33,105,255);
+  background: #2169FF;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -215,7 +215,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: rgb(9,36,57);
+  color: #092439;
   font-family: "Cerebri Sans,sans-serif" !important;
 }
 
@@ -249,7 +249,7 @@ section {
   padding: 10px 0 10px 30px;
   font-family: "Cerebri Sans,sans-serif" !important;
   font-size: 16px;
-  color: rgb(9,36,57);
+  color: #092439;
   white-space: nowrap;
   font-weight: 500;
   transition: 0.3s;
@@ -266,7 +266,7 @@ section {
 }
 
 .navbar .btnNav {
-  background: rgb(9,36,57);;
+  background: #092439;;
   padding: 8px 30px;
   margin-left: 30px;
   transition: 0.5s;
@@ -348,7 +348,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: rgb(9,36,57);
+  color: #092439;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -411,7 +411,7 @@ section {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 18px;
-  color: rgb(9,36,57);
+  color: #092439;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -448,7 +448,7 @@ section {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: rgb(33,105,255);
+  color: #2169FF;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -497,7 +497,7 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: rgb(9,36,57);
+  color: #092439;
 }
 
 .hero h2 {
@@ -518,15 +518,15 @@ section {
 
 .hero .btn-login{
   color: #fff;
-  background: rgb(33,105,255);
+  background: #2169FF;
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 .hero .btn-signup{
-  color: rgb(33,105,255);
+  color: #2169FF;
   background: #fff;
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
   margin-left:1rem;
-  border: 1px solid rgb(33,105,255);
+  border: 1px solid #2169FF;
 }
 
 .hero .btn span {
@@ -636,7 +636,7 @@ section {
   padding: 30px;
   box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
   text-align: center;
-  transition: 0.3s;
+  transition: 0.35s;
   height: 100%;
 }
 
@@ -648,17 +648,18 @@ section {
 
 .list-app .box h3 {
   font-size: 24px;
-  color: rgb(9,36,57);
+  color: #092439;
   font-weight: 700;
   margin-bottom: 18px;
 }
 
 .list-app .box:hover {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 3px 30px rgba(1, 41, 112, 0.08);
+  /* box-shadow:  0 3px 20px rgba(0,0,0,0.09); */
 }
 
 .list-app .box:hover img {
-  transform: scale(.9);
+  transform: scale(.95);
 
 }
 
@@ -682,7 +683,7 @@ section {
 # Alur
 --------------------------------------------------------------*/
 #alur{
-  background-color: rgb(33,105,255);
+  background-color: #2169FF;
 }
 #alur header p{
   color: #fff;
@@ -743,7 +744,7 @@ section {
 
 .regulations .accordion-button:not(.collapsed) {
   background: none;
-  color: rgb(33,105,255);
+  color: #2169FF;
   border-bottom: 0;
 }
 
@@ -777,12 +778,12 @@ section {
 .contact .info-box i {
   font-size: 38px;
   line-height: 0;
-  color: rgb(33,105,255);
+  color: #2169FF;
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: rgb(9,36,57);
+  color: #092439;
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
@@ -858,7 +859,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: rgb(9,36,57);
+  color: #092439;
   font-family: "Cerebri Sans,sans-serif" !important;
   margin-top: 3px;
 }
@@ -873,7 +874,7 @@ section {
 .footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: rgb(33,105,255);
+  background: #2169FF;
   color: #fff;
   opacity: .7;
   line-height: 1;
@@ -893,7 +894,7 @@ section {
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: rgb(9,36,57);
+  color: #092439;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -927,14 +928,14 @@ section {
 }
 
 .footer .footer-top .footer-links ul a {
-  color: rgb(9,36,57);
+  color: #092439;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 .footer .footer-top .footer-links ul a:hover {
-  color: rgb(33,105,255);
+  color: #2169FF;
 }
 
 .footer .footer-top .footer-contact p {
@@ -944,12 +945,12 @@ section {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: rgb(9,36,57);
+  color: #092439;
 }
 
 .footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: rgb(9,36,57);
+  color: #092439;
 }
