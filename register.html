@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>BAPENDA - SIDENRENG RAPPANG</title>
+  <meta content="Mau ngurus pajak tapi ngga mau ribet?
+  Sekarang sudah bisa urus pajak lewat online lohh.
+  Silahkan jika sudah punya akun silahkan login, jika belum daftar dulu yaa." name="description">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  
+  <!-- Vendor CSS  -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+  <!-- CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="register-page">
+
+  <!-- ======= Header ======= -->
+
+	<section id="login" class="register p-0 pt-3">
+		<div class="container ">
+			<div class="row full-height justify-content-center">
+				<div class="col-12 text-center align-self-center">
+          <div class="mb-0 d-flex flex-row justify-content-center pb-2">
+            <h6 class="tab1 m-2 mb-0">
+              Wajib Pajak 
+              <br>
+              (Perorangan / Badan / Bendaharawan)
+            </h6>
+            <h6 class="tab2 m-2 mb-0">
+              PPAT
+              <br>
+              (Pejabat Pembuat Akta Tanah)
+            </h6>
+          </div>
+          <input id="transparent" type="checkbox" />
+          <label class="toggle-item" for="transparent"></label>
+          
+          <div style="height: 1300px;" class="card-3d-wrap mx-auto">
+            <div class="card-3d-wrapper">
+
+                <div class="card-front">
+                  <div class="center-wrap">
+                    <h4 class="mb-1 mt-2 text-white">Daftar - Wajib Pajak</h4>
+                    
+                    <ul class="nav nav-pills mt-3" id="pills-tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link text-white active" id="pills-perorangan-tab" data-bs-toggle="pill" data-bs-target="#pills-perorangan" type="button" role="tab" aria-controls="pills-perorangan" aria-selected="true">Perorangan</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link text-white" id="pills-badan-usaha-tab" data-bs-toggle="pill" data-bs-target="#pills-badan-usaha" type="button" role="tab" aria-controls="pills-badan-usaha" aria-selected="false">Badan Usaha / Bendaharawan</button>
+                      </li>
+                    </ul>
+
+                    <div class="tab-content" id="pills-tabContent">
+                      <div class="tab-pane fade show active" id="pills-perorangan" role="tabpanel" aria-labelledby="pills-perorangan-tab">
+                        <div class="form-group">
+                          <label class="text-white">Wilayah</label>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label class="text-white">Nomor Induk Kependudukan (NIK)</label>
+                          <input type="text" class="form-control" placeholder="Nomor Induk Kependudukan">
+                        </div>
+                        <div class="form-group">
+                          <label class="text-white">Nomor Pokok Wajib Pajak (NPWP) </label>
+                          <input type="text" class="form-control" placeholder="Nomor Pokok Wajib Pajak">
+                        </div>
+                        <div class="form-group">
+                          <label class="text-white">Nama Lengkap</label>
+                          <input type="text" class="form-control" placeholder="Nama Lengkap">
+                        </div>
+                        <div class="form-group">
+                          <label class="text-white">Nomor Telepon</label>
+                          <input type="text" class="form-control" placeholder="Nomor Telepon">
+                        </div>   
+                        <div class="form-group">
+                          <label class="text-white">Nomor Handphone</label>
+                          <input type="text" class="form-control" placeholder="Nomor Handphone">
+                        </div>   
+                        <div class="form-group">
+                          <label class="text-white">Alamat Email</label>
+                          <input type="text" class="form-control" placeholder="Alamat Email">
+                        </div>   
+                        <div class="form-group">
+                          <label class="text-white">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                          <label class="text-white">Konfirmasi Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Konfirmasi Password">
+                        </div>  
+                        <div class="form-group">
+                          <label style="text-align: left;" class="text-white w-100 mb-0 pb-0">Ketentuan</label>
+                          <div class="terms">
+                            <p>
+                              BERDASARKAN PERMOHONAN AKUN PAJAK ONINE YANG SAYA AJUKAN DAN DATA/INFORMASI/ KETERANGAN YANG TELAH SAYA ISI SERTA JELASKAN DALAM FORMULIR REGISTRASI APLIKASI PAJAK ONLINE (UNTUK SELANJUTNYA DISEBUT SEBAGAI DATA), MAKA DENGAN INI SAYA MENYATAKAN SEBAGAI BERIKUT: <br>
+                            </p>
+                            
+                            <ol>
+                              <li>BAHWA SAYA MEMBERIKAN DATA DALAM KEADAAN SEHAT JASMANI DAN ROHANI DAN TIDAK DALAM KONDISI DIPAKSA;</li>
+                              <li>BAHWA SAYA ADALAH ORANG YANG BERHAK DAN BERWENANG DALAM MEMBERIKAN DATA;</li>
+                              <li>BAHWA DATA ADALAH BENAR DAN SAH DAN DAPAT DIPERTANGGUNGJAWABKAN KEBENARAN DAN KESAHIANNYA;</li>
+                              <li>BAHWA OBJEK PAJAK YANG DIMOHONKAN TIDAK ADA PERMASALAHAN DAN TIDAK DALAM SENGKETA KEPEMILIKAN DENGAN PIHAK MANAPUN, BAIK SENGKETA TERHADAP SUBYEK PEMEGANG HAK, MAUPUN OBYEK HAK, TANDA-TANDA BATAS ATAU TANAMAN/BANGUNAN YANG ADA DIATAS OBJEK PAJAK TERSEBUT;</li>
+                              <li>BAHWA AKAN MENGIKUTI SEMUA KETENTUAN YANG ADA PADA PELAYANAN YANG DIBERIKAN;</li>
+                              <li>BAHWA DATA TIDAK MELANGGAR PERATURAN PERUNDANG-UNDANGAN YANG BERLAKU;</li>
+                              <li>BAHWA DATA TELAH DIISI DENGAN CARA DAN PROSEDUR YANG BENAR DAN TIDAK TERJADI KESALAHAN APAPUN TERMASUK TETAPI TIDAK TERBATAS ATAS KESALAHAN PENULISAN, DALAM BENTUK DAN CARA APAPUN;</li>
+                              <li>BAHWA SAYA MENYADARI BAHWA APAPUN YANG DIKELUARKAN OLEH INSTANSI YANG DIMOHON BERDASARKAN PERMOHONAN DENGAN DATA INI 
+                                  (TERMASUK TETAPI TIDAK TERBATAS KEPADA INFORMASI, KETERANGAN, PENJELASAN, SURAT, SURAT KETERANGAN, SURAT KEPUTUSAN, SURAT PERSETUJUAN), 
+                                  TIDAK MEMBERIKAN HAK, KEWENANGAN, REKOMENDASI, PERSETUJUAN APAPUN KECUALI APA YANG BENAR-BENAR DISEBUTKAN DALAM SURAT KETERANGAN, SURAT KEPUTUSAN, 
+                                  SURAT PERSETUJUAN DAN/ATAU DALAM BENTUK APAPUN YANG DIBERIKAN OLEH INSTANSI DAN DAPAT DIBUKTIKAN DENGAN CARA-CARA YANG DIAKUI OLEH ATURAN PERUNDANG-UNDANGAN YANG BERLAKU SEBAGAI HASIL/AKIBAT DARI PERMOHONAN BERDASARKAN DATA;</li>
+                              <li>BAHWA SAYA TIDAK DAPAT MENCABUT, MENAMBAH, MENGURANGI, MENGUBAH, DAN/ATAU MEMODIFIKASI APAPUN DAN DALAM BENTUK APAPUN DATA, KECUALI DENGAN PERSETUJUAN KEPALA INSTANSI KEPADA SIAPA PERMOHONAN BERDASARKAN DATA INI DITUJUKAN;</li>
+                              <li>BAHWA SAYA BERSEDIA MENANGGUNG BIAYA, PENGELUARAN, RETRIBUSI, PAJAK DAN ATAU BENTUK DAN HARGA BERAPAPUN YANG DIBEBANKAN KEPADA SAYA SEBAGAI AKIBAT DARI DIBERIKANNYA DATA DAN/ATAU PERNYATAAN INI;</li>
+                            </ol>
+                          </div>
+                          <div class="mt-3 form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="label-check text-white mt-0 mb-0 pt-0 pb-0 form-check-label" for="flexCheckDefault">
+                              Saya setuju dengan syarat dan ketentuan diatas.
+                            </label>
+                          </div>
+                        </div>  
+                        <a href="#" class="btn mt-4">Daftar</a>
+                        <p class="mb-0 mt-4 text-center font-weight-bold"><a href="login.html" class="text-white">Sudah punya akun?</a></p>
+                      </div>
+
+                      <div class="tab-pane fade" id="pills-badan-usaha" role="tabpanel" aria-labelledby="pills-badan-usaha-tab">
+                        <div class="form-group">
+                          <label class="text-white">Wilayah</label>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label class="text-white">Nomor Pokok Wajib Pajak (NPWP) </label>
+                          <input type="text" class="form-control" placeholder="Nomor Pokok Wajib Pajak">
+                        </div>
+                        <div class="form-group">
+                          <label class="text-white">Nama Lengkap</label>
+                          <input type="text" class="form-control" placeholder="Nama Lengkap">
+                        </div>
+                        <div class="form-group">
+                          <label class="text-white">Nomor Telepon</label>
+                          <input type="text" class="form-control" placeholder="Nomor Telepon">
+                        </div>   
+                        <div class="form-group">
+                          <label class="text-white">Nomor Handphone</label>
+                          <input type="text" class="form-control" placeholder="Nomor Handphone">
+                        </div>   
+                        <div class="form-group">
+                          <label class="text-white">Alamat Email</label>
+                          <input type="text" class="form-control" placeholder="Alamat Email">
+                        </div>   
+                        <div class="form-group">
+                          <label class="text-white">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                          <label class="text-white">Konfirmasi Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Konfirmasi Password">
+                        </div>  
+                        <div class="form-group">
+                          <label style="text-align: left;" class="text-white w-100 mb-0 pb-0">Ketentuan</label>
+                          <div style="height: 220px;" class="terms">
+                            <p>
+                              BERDASARKAN PERMOHONAN AKUN PAJAK ONINE YANG SAYA AJUKAN DAN DATA/INFORMASI/ KETERANGAN YANG TELAH SAYA ISI SERTA JELASKAN DALAM FORMULIR REGISTRASI APLIKASI PAJAK ONLINE (UNTUK SELANJUTNYA DISEBUT SEBAGAI DATA), MAKA DENGAN INI SAYA MENYATAKAN SEBAGAI BERIKUT: <br>
+                            </p>
+                            
+                            <ol>
+                              <li>BAHWA SAYA MEMBERIKAN DATA DALAM KEADAAN SEHAT JASMANI DAN ROHANI DAN TIDAK DALAM KONDISI DIPAKSA;</li>
+                              <li>BAHWA SAYA ADALAH ORANG YANG BERHAK DAN BERWENANG DALAM MEMBERIKAN DATA;</li>
+                              <li>BAHWA DATA ADALAH BENAR DAN SAH DAN DAPAT DIPERTANGGUNGJAWABKAN KEBENARAN DAN KESAHIANNYA;</li>
+                              <li>BAHWA OBJEK PAJAK YANG DIMOHONKAN TIDAK ADA PERMASALAHAN DAN TIDAK DALAM SENGKETA KEPEMILIKAN DENGAN PIHAK MANAPUN, BAIK SENGKETA TERHADAP SUBYEK PEMEGANG HAK, MAUPUN OBYEK HAK, TANDA-TANDA BATAS ATAU TANAMAN/BANGUNAN YANG ADA DIATAS OBJEK PAJAK TERSEBUT;</li>
+                              <li>BAHWA AKAN MENGIKUTI SEMUA KETENTUAN YANG ADA PADA PELAYANAN YANG DIBERIKAN;</li>
+                              <li>BAHWA DATA TIDAK MELANGGAR PERATURAN PERUNDANG-UNDANGAN YANG BERLAKU;</li>
+                              <li>BAHWA DATA TELAH DIISI DENGAN CARA DAN PROSEDUR YANG BENAR DAN TIDAK TERJADI KESALAHAN APAPUN TERMASUK TETAPI TIDAK TERBATAS ATAS KESALAHAN PENULISAN, DALAM BENTUK DAN CARA APAPUN;</li>
+                              <li>BAHWA SAYA MENYADARI BAHWA APAPUN YANG DIKELUARKAN OLEH INSTANSI YANG DIMOHON BERDASARKAN PERMOHONAN DENGAN DATA INI 
+                                  (TERMASUK TETAPI TIDAK TERBATAS KEPADA INFORMASI, KETERANGAN, PENJELASAN, SURAT, SURAT KETERANGAN, SURAT KEPUTUSAN, SURAT PERSETUJUAN), 
+                                  TIDAK MEMBERIKAN HAK, KEWENANGAN, REKOMENDASI, PERSETUJUAN APAPUN KECUALI APA YANG BENAR-BENAR DISEBUTKAN DALAM SURAT KETERANGAN, SURAT KEPUTUSAN, 
+                                  SURAT PERSETUJUAN DAN/ATAU DALAM BENTUK APAPUN YANG DIBERIKAN OLEH INSTANSI DAN DAPAT DIBUKTIKAN DENGAN CARA-CARA YANG DIAKUI OLEH ATURAN PERUNDANG-UNDANGAN YANG BERLAKU SEBAGAI HASIL/AKIBAT DARI PERMOHONAN BERDASARKAN DATA;</li>
+                              <li>BAHWA SAYA TIDAK DAPAT MENCABUT, MENAMBAH, MENGURANGI, MENGUBAH, DAN/ATAU MEMODIFIKASI APAPUN DAN DALAM BENTUK APAPUN DATA, KECUALI DENGAN PERSETUJUAN KEPALA INSTANSI KEPADA SIAPA PERMOHONAN BERDASARKAN DATA INI DITUJUKAN;</li>
+                              <li>BAHWA SAYA BERSEDIA MENANGGUNG BIAYA, PENGELUARAN, RETRIBUSI, PAJAK DAN ATAU BENTUK DAN HARGA BERAPAPUN YANG DIBEBANKAN KEPADA SAYA SEBAGAI AKIBAT DARI DIBERIKANNYA DATA DAN/ATAU PERNYATAAN INI;</li>
+                            </ol>
+                          </div>
+                          <div class="mt-3 form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                            <label class="label-check text-white mt-0 mb-0 pt-0 pb-0 form-check-label" for="flexCheckDefault1">
+                              Saya setuju dengan syarat dan ketentuan diatas.
+                            </label>
+                          </div>
+                        </div>  
+    
+                        <a href="#" class="btn mt-4">Daftar</a>
+                        <p class="mb-0 mt-4 text-center font-weight-bold"><a href="login.html" class="text-white">Sudah punya akun?</a></p>
+                      </div>
+                    </div>
+
+                    
+                  </div>
+                </div>
+
+                <div class="card-back">
+                  <div class="center-wrap">
+                    <h4 class="mb-1 mt-1  text-white">Masuk - PPAT</h4>
+                    <div class="form-group">
+                      <label class="text-white">Nomor Induk Kependudukan (NIK)</label>
+                      <input type="text" class="form-control" placeholder="Nomor Induk Kependudukan">
+                    </div>
+                    <div class="form-group">
+                      <label class="text-white">Nomor Pokok Wajib Pajak (NPWP) </label>
+                      <input type="text" class="form-control" placeholder="Nomor Pokok Wajib Pajak">
+                    </div>
+                    <div class="form-group">
+                      <label class="text-white">Nama Lengkap</label>
+                      <input type="text" class="form-control" placeholder="Nama Lengkap">
+                    </div>
+                    <div class="form-group">
+                      <label class="text-white">Nomor SK BPN</label>
+                      <input type="text" class="form-control" placeholder="Nomor SK BPN">
+                    </div>   
+                    <div class="form-group">
+                      <label class="text-white">Alamat Kantor</label>
+                      <input type="text" class="form-control" placeholder="Alamat Kantor">
+                    </div>   
+                    <div class="form-group">
+                      <label class="text-white">Wilayah Tugas</label>
+                      <input type="text" class="form-control" placeholder="Wilayah Tugas">
+                    </div> 
+                    <div class="form-group">
+                      <label class="text-white">Nomor Handphone</label>
+                      <input type="text" class="form-control" placeholder="Nomor Handphone">
+                    </div> 
+                    <div class="form-group">
+                      <label class="text-white">Alamat Email</label>
+                      <input type="text" class="form-control" placeholder="Alamat Email">
+                    </div>   
+                    <div class="form-group">
+                      <label class="text-white">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <label class="text-white">Konfirmasi Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Konfirmasi Password">
+                    </div>  
+                    <div class="form-group">
+                      <label style="text-align: left;" class="text-white w-100 mb-0 pb-0">Ketentuan</label>
+                      <div style="height: 180px;" class="terms">
+                        <p>
+                          BERDASARKAN PERMOHONAN AKUN PAJAK ONINE YANG SAYA AJUKAN DAN DATA/INFORMASI/ KETERANGAN YANG TELAH SAYA ISI SERTA JELASKAN DALAM FORMULIR REGISTRASI APLIKASI PAJAK ONLINE (UNTUK SELANJUTNYA DISEBUT SEBAGAI DATA), MAKA DENGAN INI SAYA MENYATAKAN SEBAGAI BERIKUT: <br>
+                        </p>
+                        
+                        <ol>
+                          <li>BAHWA SAYA MEMBERIKAN DATA DALAM KEADAAN SEHAT JASMANI DAN ROHANI DAN TIDAK DALAM KONDISI DIPAKSA;</li>
+                          <li>BAHWA SAYA ADALAH ORANG YANG BERHAK DAN BERWENANG DALAM MEMBERIKAN DATA;</li>
+                          <li>BAHWA DATA ADALAH BENAR DAN SAH DAN DAPAT DIPERTANGGUNGJAWABKAN KEBENARAN DAN KESAHIANNYA;</li>
+                          <li>BAHWA OBJEK PAJAK YANG DIMOHONKAN TIDAK ADA PERMASALAHAN DAN TIDAK DALAM SENGKETA KEPEMILIKAN DENGAN PIHAK MANAPUN, BAIK SENGKETA TERHADAP SUBYEK PEMEGANG HAK, MAUPUN OBYEK HAK, TANDA-TANDA BATAS ATAU TANAMAN/BANGUNAN YANG ADA DIATAS OBJEK PAJAK TERSEBUT;</li>
+                          <li>BAHWA AKAN MENGIKUTI SEMUA KETENTUAN YANG ADA PADA PELAYANAN YANG DIBERIKAN;</li>
+                          <li>BAHWA DATA TIDAK MELANGGAR PERATURAN PERUNDANG-UNDANGAN YANG BERLAKU;</li>
+                          <li>BAHWA DATA TELAH DIISI DENGAN CARA DAN PROSEDUR YANG BENAR DAN TIDAK TERJADI KESALAHAN APAPUN TERMASUK TETAPI TIDAK TERBATAS ATAS KESALAHAN PENULISAN, DALAM BENTUK DAN CARA APAPUN;</li>
+                          <li>BAHWA SAYA MENYADARI BAHWA APAPUN YANG DIKELUARKAN OLEH INSTANSI YANG DIMOHON BERDASARKAN PERMOHONAN DENGAN DATA INI 
+                              (TERMASUK TETAPI TIDAK TERBATAS KEPADA INFORMASI, KETERANGAN, PENJELASAN, SURAT, SURAT KETERANGAN, SURAT KEPUTUSAN, SURAT PERSETUJUAN), 
+                              TIDAK MEMBERIKAN HAK, KEWENANGAN, REKOMENDASI, PERSETUJUAN APAPUN KECUALI APA YANG BENAR-BENAR DISEBUTKAN DALAM SURAT KETERANGAN, SURAT KEPUTUSAN, 
+                              SURAT PERSETUJUAN DAN/ATAU DALAM BENTUK APAPUN YANG DIBERIKAN OLEH INSTANSI DAN DAPAT DIBUKTIKAN DENGAN CARA-CARA YANG DIAKUI OLEH ATURAN PERUNDANG-UNDANGAN YANG BERLAKU SEBAGAI HASIL/AKIBAT DARI PERMOHONAN BERDASARKAN DATA;</li>
+                          <li>BAHWA SAYA TIDAK DAPAT MENCABUT, MENAMBAH, MENGURANGI, MENGUBAH, DAN/ATAU MEMODIFIKASI APAPUN DAN DALAM BENTUK APAPUN DATA, KECUALI DENGAN PERSETUJUAN KEPALA INSTANSI KEPADA SIAPA PERMOHONAN BERDASARKAN DATA INI DITUJUKAN;</li>
+                          <li>BAHWA SAYA BERSEDIA MENANGGUNG BIAYA, PENGELUARAN, RETRIBUSI, PAJAK DAN ATAU BENTUK DAN HARGA BERAPAPUN YANG DIBEBANKAN KEPADA SAYA SEBAGAI AKIBAT DARI DIBERIKANNYA DATA DAN/ATAU PERNYATAAN INI;</li>
+                        </ol>
+                      </div>
+                      <div class="mt-3 form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                        <label class="label-check text-white mt-0 mb-0 pt-0 pb-0 form-check-label" for="flexCheckDefault2">
+                          Saya setuju dengan syarat dan ketentuan diatas.
+                        </label>
+                      </div>
+                    </div>
+
+                    <a href="#" class="btn mt-4">Daftar</a>
+                    <p class="mb-0 mt-4 text-center font-weight-bold"><a href="login.html" class="text-white">Sudah punya akun?</a></p>
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+          
+		    </div>
+	    </div>
+	  </div>
+	</section>
+
+  <!-- End Header -->
+
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
